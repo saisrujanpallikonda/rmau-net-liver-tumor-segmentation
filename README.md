@@ -66,8 +66,6 @@ rmau-net-liver-tumor-segmentation/
 │   ├── loss.py         # DiceLoss, FocalLoss, HybridLoss
 │   ├── metrics.py      # DSC, VOE, RVD computation
 │   └── train.py        # train_one_epoch, evaluate
-├── notebook/
-│   └── RMAU_Net_LocalAttn.ipynb   # Full Colab training notebook
 ├── results/
 │   ├── predictions.png
 │   ├── training_curves.png
@@ -83,7 +81,7 @@ rmau-net-liver-tumor-segmentation/
 ## ⚙️ Setup
 
 ```bash
-git clone https://github.com/yourusername/rmau-net-liver-tumor-segmentation
+git clone https://github.com/saisrujanpallikonda/rmau-net-liver-tumor-segmentation
 cd rmau-net-liver-tumor-segmentation
 pip install -r requirements.txt
 ```
